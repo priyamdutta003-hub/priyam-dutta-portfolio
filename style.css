@@ -10,11 +10,14 @@ body {
   color: #1f2937;
   line-height: 1.7;
 }
+
 .profile-pic {
-    width: 50px !important;
-    height: 50px !important;
-    background: red;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
 }
+
 
 .container {
   width: 90%;
