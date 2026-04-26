@@ -1,40 +1,235 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Priyam Dutta | Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Priyam Dutta | Portfolio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #f7f8fc;
+      color: #222;
+      line-height: 1.6;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    header {
+      background: #111827;
+      color: white;
+      padding: 80px 0;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 48px;
+      margin-bottom: 15px;
+    }
+
+    header p {
+      font-size: 20px;
+      margin-bottom: 20px;
+    }
+
+    .btn-group a {
+      display: inline-block;
+      margin: 10px;
+      padding: 12px 24px;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .btn-primary {
+      background: #2563eb;
+      color: white;
+    }
+
+    .btn-secondary {
+      background: white;
+      color: #111827;
+    }
+
+    .btn-group a:hover {
+      transform: translateY(-2px);
+    }
+
+    section {
+      padding: 60px 0;
+    }
+
+    .card {
+      background: white;
+      padding: 30px;
+      border-radius: 14px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+      margin-top: 20px;
+    }
+
+    h2 {
+      font-size: 32px;
+      margin-bottom: 20px;
+      color: #111827;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    li {
+      margin-bottom: 10px;
+    }
+
+    footer {
+      background: #111827;
+      color: white;
+      text-align: center;
+      padding: 30px 0;
+      margin-top: 40px;
+    }
+
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 34px;
+      }
+
+      header p {
+        font-size: 16px;
+      }
+    }
+  </style>
 </head>
 <body>
 
-    <header>
-        <h1>Priyam Dutta</h1>
-        <p>BBA Student | ICCR Scholar | Researcher in AI & Finance</p>
-    </header>
+  <header>
+    <div class="container">
+      <h1>Priyam Dutta</h1>
+      <p>BBA Student | ICCR Scholar | Researcher in AI & Finance</p>
+      <p>
+        Building a global academic and professional career in finance,
+        research, and leadership with a strong focus on AI-driven financial decision-making.
+      </p>
 
-    <section>
-        <h2>About Me</h2>
+      <div class="btn-group">
+        <a href="#research" class="btn-primary">View Research</a>
+        <a href="https://www.linkedin.com/in/priyam-dutta-7644422aa" target="_blank" class="btn-secondary">LinkedIn Profile</a>
+      </div>
+    </div>
+  </header>
+
+  <section>
+    <div class="container">
+      <h2>About Me</h2>
+      <div class="card">
         <p>
-            I am a BBA student at Andhra University and an ICCR Scholar.
-            My interests include finance, research, artificial intelligence,
-            and leadership development.
+          I am a BBA student at Andhra University and an ICCR Scholar, pursuing academic excellence
+          with strong interests in finance, artificial intelligence, and strategic decision-making.
         </p>
-    </section>
-
-    <section>
-        <h2>Research</h2>
+        <br />
         <p>
-            Research Topic: Influence of Artificial Intelligence Tools
-            on Financial Decision-Making Among University Students.
+          My work focuses on understanding how AI tools influence financial behavior among university
+          students and young professionals. Through research, internships, and leadership programs,
+          I aim to build a global career in finance while preparing for top-tier MBA opportunities.
         </p>
-    </section>
+      </div>
+    </div>
+  </section>
 
-    <section>
-        <h2>Contact</h2>
-        <p>LinkedIn:www.linkedin.com/in/priyam-dutta-7644422aa</p>
-        <p>Email:priyamdutta003@gmail.com</p>
-    </section>
+  <section id="research">
+    <div class="container">
+      <h2>Research Publication</h2>
+      <div class="card">
+        <h3>Influence of Artificial Intelligence Tools on Financial Decision-Making Among University Students</h3>
+        <br />
+        <p>
+          This research examines how AI-powered tools impact financial choices, investment awareness,
+          budgeting behavior, and decision confidence among students and young professionals.
+        </p>
+        <br />
+        <p><strong>Published On:</strong> SSRN</p>
+        <p><strong>Future Goal:</strong> Springer Publication + Advanced Academic Research</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <h2>Achievements</h2>
+      <div class="card">
+        <ul>
+          <li>ICCR Scholarship Recipient</li>
+          <li>Research Paper Published on SSRN</li>
+          <li>Aspire Leaders Program Participant</li>
+          <li>Google Data Analytics Certification</li>
+          <li>Advanced Analytics Course – Coursera</li>
+          <li>Microsoft Excel Professional Skills</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <div class="card">
+          <h3>Technical Skills</h3>
+          <br />
+          <ul>
+            <li>Financial Analysis</li>
+            <li>Research Methodology</li>
+            <li>Microsoft Excel</li>
+            <li>Data Analytics</li>
+            <li>Academic Writing</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>Professional Skills</h3>
+          <br />
+          <ul>
+            <li>Leadership</li>
+            <li>Communication</li>
+            <li>Strategic Thinking</li>
+            <li>Networking</li>
+            <li>Problem Solving</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <h2>Contact</h2>
+      <div class="card">
+        <p><strong>LinkedIn:</strong> www.linkedin.com/in/priyam-dutta-7644422aa</p>
+        <br />
+        <p><strong>Email:</strong> priyamdutta003@gmail.com</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 Priyam Dutta | Professional Portfolio</p>
+  </footer>
 
 </body>
 </html>
