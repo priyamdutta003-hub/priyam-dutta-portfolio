@@ -10,6 +10,11 @@ body {
   color: #1f2937;
   line-height: 1.7;
 }
+.profile-pic {
+    width: 50px !important;
+    height: 50px !important;
+    background: red;
+}
 
 .container {
   width: 90%;
@@ -131,12 +136,5 @@ strong {
     padding: 25px;
   }
 }
-.profile-pic {
-    width: 160px;
-    height: 160px;
-    border-radius: 50%;
-    object-fit: cover;
-    border: 3px solid #4f46e5;
-    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
-}
+
 
