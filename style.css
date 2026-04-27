@@ -343,8 +343,8 @@ footer {
 
 /* Title */
 .section-title {
-  font-size: 48px;
-  margin-bottom: 15px;
+  font-size: 32px;
+  margin-bottom: 20px;
 }
 
 /* Description text */
@@ -353,7 +353,7 @@ footer {
   margin: 0 auto 30px auto;
   color: #cbd5e1;
   line-height: 1.6;
-  font-size: 15px;
+  font-size: 20px;
 }
 
 /* Row container */
@@ -386,7 +386,7 @@ footer {
 .about-card h3 {
   color: #38bdf8;
   margin-bottom: 12px;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 /* List styling */
@@ -394,7 +394,7 @@ footer {
   padding-left: 18px;
   color: #cbd5e1;
   line-height: 1.7;
-  font-size: 14px;
+  font-size: 20px;
 }
 
 /* Mobile responsiveness */
