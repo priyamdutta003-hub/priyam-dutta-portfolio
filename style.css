@@ -149,14 +149,10 @@ footer {
     color: #666;
 }
 ```css
-/* PROJECTS PAGE */
-.projects-section {
-    text-align: center;
-}
-
+/* COMPLETE WORKING PROJECT CARD CSS */
 
 .projects-section {
-    max-width: 1200px;
+    max-width: 1300px;
     margin: auto;
     padding: 80px 20px;
     text-align: center;
@@ -170,32 +166,28 @@ footer {
 .project-subtitle {
     font-size: 18px;
     color: #555;
-    margin-bottom: 50px;
+    margin-bottom: 60px;
 }
 
-/* ROW layout for 3 project cards */
+/* ROW FOR 3 CARDS */
 
 .projects-row {
     display: flex;
     justify-content: center;
     align-items: stretch;
-    gap: 25px;
+    gap: 30px;
     flex-wrap: nowrap;
 }
 
-}
-
-/* Individual project cards */
+/* INDIVIDUAL CARD */
 
 .project-card {
-    background: white;
-border: 1px solid #ddd;
-padding: 30px;
-
-    padding: 30px;
-    width: 300px;
-    min-height: 420px;
-
+    background-color: white;
+    border: 1px solid #dcdcdc;
+    border-radius: 16px;
+    padding: 35px;
+    width: 320px;
+    min-height: 430px;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
 
     display: flex;
@@ -206,41 +198,35 @@ padding: 30px;
     transition: 0.3s;
 }
 
-
-}
-
 .project-card:hover {
     transform: translateY(-5px);
 }
-.project-card {
-    min-height: 430px;
-}
-
 
 .project-card h2 {
     font-size: 22px;
-    margin-bottom: 18px;
-    line-height: 1.4;
+    line-height: 1.5;
+    margin-bottom: 20px;
 }
 
 .project-card p {
-    font-size: 15px;
-    line-height: 1.7;
-    margin-bottom: 25px;
+    font-size: 16px;
+    line-height: 1.8;
     color: #444;
+    margin-bottom: 25px;
 }
 
-/* Button styling */
+/* BUTTON */
 
 .btn {
     display: inline-block;
-    padding: 12px 22px;
+    padding: 14px 24px;
     background: black;
     color: white;
     text-decoration: none;
     border-radius: 8px;
     border: 1px solid black;
-    font-size: 14px;
+    font-size: 15px;
+    font-weight: 500;
     transition: 0.3s;
 }
 
@@ -248,5 +234,5 @@ padding: 30px;
     background: white;
     color: black;
 }
-```
+
 
