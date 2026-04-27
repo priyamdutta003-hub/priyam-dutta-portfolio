@@ -257,9 +257,11 @@ footer {
 }
 
 .section-title {
-  font-size: 48px;
-  margin-bottom: 15px;
+  font-size: 32px;
+  margin-top: -10px;  /* move it slightly up */
+  margin-bottom: 30px;
 }
+
 
 .contact-container {
   display: flex;
