@@ -12,7 +12,7 @@ nav {
     display: flex;
     justify-content: right;   /* centers the whole navbar */
     align-items: right;
-    gap: 80px;                 /* equal spacing between Home/About/Projects/Contact */
+    gap: 60px;                 /* equal spacing between Home/About/Projects/Contact */
     width: 100%;
 }
 
