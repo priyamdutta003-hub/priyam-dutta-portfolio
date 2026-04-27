@@ -116,4 +116,13 @@ nav a {
     transform: translateY(-3px);
 }
 
+/* Increase spacing between social icons */
+
+.social-icons {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;   /* Increase this value for more space */
+}
 
