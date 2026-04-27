@@ -179,8 +179,8 @@ footer {
     display: flex;
     justify-content: center;
     align-items: stretch;
-    gap: 20px;   /* reduced from 30px */
-    flex-wrap: nowrap;   /* important */
+    gap: 25px;
+    flex-wrap: nowrap;
 }
 
 }
@@ -189,15 +189,22 @@ footer {
 
 .project-card {
     background: white;
-    border: 1px solid #ddd;
-    border-radius: 14px;
+    border: 1px solid #dcdcdc;
+    border-radius: 16px;
     padding: 30px;
-    width: 300px;   /* reduced from 320px */
+    width: 300px;
     min-height: 420px;
+
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
-    text-align: left;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    text-align: center;
     transition: 0.3s;
 }
+
 
 }
 
