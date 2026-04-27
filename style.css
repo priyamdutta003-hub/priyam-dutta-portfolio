@@ -179,8 +179,10 @@ footer {
     display: flex;
     justify-content: center;
     align-items: stretch;
-    gap: 30px;
-    flex-wrap: wrap;
+    gap: 20px;   /* reduced from 30px */
+    flex-wrap: nowrap;   /* important */
+}
+
 }
 
 /* Individual project cards */
@@ -190,10 +192,13 @@ footer {
     border: 1px solid #ddd;
     border-radius: 14px;
     padding: 30px;
-    width: 320px;
+    width: 300px;   /* reduced from 320px */
+    min-height: 420px;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
     text-align: left;
     transition: 0.3s;
+}
+
 }
 
 .project-card:hover {
