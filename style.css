@@ -13,13 +13,13 @@ nav {
     justify-content: right;   /* centers the whole navbar */
     align-items: right;
     gap: 50px;                 /* equal spacing between Home/About/Projects/Contact */
-    width: 90%;
+    width: 100%;
 }
 
 nav a {
     color: white;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 500;
     transition: 0.3s;
 }
