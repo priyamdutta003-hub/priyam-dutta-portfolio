@@ -150,6 +150,10 @@ footer {
 }
 ```css
 /* PROJECTS PAGE */
+.projects-section {
+    text-align: center;
+}
+
 
 .projects-section {
     max-width: 1200px;
@@ -195,6 +199,10 @@ footer {
 .project-card:hover {
     transform: translateY(-5px);
 }
+.project-card {
+    min-height: 430px;
+}
+
 
 .project-card h2 {
     font-size: 22px;
