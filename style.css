@@ -34,12 +34,19 @@ nav a {
 
 .btn {
     display: inline-block;
-    padding: 10px 15px;
-    margin: 10px;
-    background: #4f46e5;
+    padding: 14px 28px;
+    background: black;   /* changed from blue to black */
     color: white;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 8px;
+    font-size: 16px;
+    border: 1px solid black;
+    transition: 0.3s;
+}
+.btn:hover {
+    background: white;
+    color: black;
+    border: 1px solid black;
 }
 
 .card {
