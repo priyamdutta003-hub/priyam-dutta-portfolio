@@ -12,8 +12,8 @@ nav {
     display: flex;
     justify-content: right;   /* centers the whole navbar */
     align-items: right;
-    gap: 60px;                 /* equal spacing between Home/About/Projects/Contact */
-    width: 100%;
+    gap: 50px;                 /* equal spacing between Home/About/Projects/Contact */
+    width: 90%;
 }
 
 nav a {
