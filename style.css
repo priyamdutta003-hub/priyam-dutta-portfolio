@@ -10,8 +10,8 @@ nav {
     background: black;
     padding: 20px 0;
     display: flex;
-    justify-content: center;   /* centers the whole navbar */
-    align-items: center;
+    justify-content: right;   /* centers the whole navbar */
+    align-items: right;
     gap: 80px;                 /* equal spacing between Home/About/Projects/Contact */
     width: 100%;
 }
