@@ -333,4 +333,75 @@ footer {
 .contact-form button:hover {
   background: #16a34a;
 }
+/* Section background */
+.about-section {
+  padding: 60px 20px;
+  background: #0f172a;
+  color: #ffffff;
+  text-align: center;
+}
+
+/* Title */
+.section-title {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+/* Description text */
+.about-description {
+  max-width: 800px;
+  margin: 0 auto 30px auto;
+  color: #cbd5e1;
+  line-height: 1.6;
+  font-size: 15px;
+}
+
+/* Row container */
+.about-row {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+/* Individual cards */
+.about-card {
+  background: #1e293b;
+  width: 320px;
+  padding: 22px;
+  border-radius: 14px;
+  text-align: left;
+  transition: all 0.3s ease;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+}
+
+/* Hover effect */
+.about-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.35);
+}
+
+/* Card titles */
+.about-card h3 {
+  color: #38bdf8;
+  margin-bottom: 12px;
+  font-size: 18px;
+}
+
+/* List styling */
+.about-card ul {
+  padding-left: 18px;
+  color: #cbd5e1;
+  line-height: 1.7;
+  font-size: 14px;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .about-card {
+    width: 100%;
+    max-width: 400px;
+  }
+}
 
