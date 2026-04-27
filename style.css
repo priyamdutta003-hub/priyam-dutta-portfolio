@@ -96,5 +96,24 @@ nav a {
 .btn:hover {
   background: #f8f9fc;
 }
+/* Add this in style.css */
+
+.social-icons {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.social-icons a {
+    font-size: 28px;
+    color: black;
+    transition: 0.3s;
+}
+
+.social-icons a:hover {
+    color: #4f46e5;
+    transform: translateY(-3px);
+}
 
 
