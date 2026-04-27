@@ -57,17 +57,53 @@ nav a {
     <a href="contact.html">Contact</a>
 </nav>
 
-<section class="about-container">
+.about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    padding: 40px;
+    background: #f8f9fc;
+}
 
-    <div class="about-card">
-        <h1>About Me</h1>
+.about-card {
+    background: white;
+    width: 700px;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+    text-align: center;
+}
 
-        <p>
-            Hello, I’m Priyam Dutta, a BBA student at Andhra University
-            with a strong interest in Finance, Artificial Intelligence,
-            and Research. I focus on how AI influences financial
-            decision-making and strategic business growth.
-        </p>
+.about-pic {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.about-card h1 {
+    margin-bottom: 20px;
+    font-size: 32px;
+}
+
+.about-card p {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #444;
+    margin-bottom: 25px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background: #4f46e5;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+}
 
     </div>
 
